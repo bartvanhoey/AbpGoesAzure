@@ -37,4 +37,14 @@
     <None Remove="Logs\**" />
   </ItemGroup>
 
+  <ItemGroup>
+     <Content Include="openiddict.pfx">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+
+
+
+
 </Project>
