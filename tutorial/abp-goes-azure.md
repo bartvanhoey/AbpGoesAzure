@@ -11,7 +11,9 @@ _Continuous deployment_ is a _software engineering approach_ in which _software 
 The sample application has been developed with **Blazor** as UI framework and **SQL Server** as database provider.
 The same principles apply for other **UI frameworks like Angular, MVC or databases like MongoDb, MySql, Progress**, ...
 
-ATTENTION: This tutorial is by no means production-ready and just serves as a guide to point you in the right direction.
+Get the [source code](https://github.com/bartvanhoey/AbpGoesAzure.git) on GitHub.
+
+ATTENTION: **This tutorial is by no means production-ready** and just serves as a guide to point you in the right direction.
 
 ### Requirements
 
