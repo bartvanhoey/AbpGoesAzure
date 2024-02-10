@@ -29,6 +29,7 @@ using Volo.Abp.Security.Claims;
 using Volo.Abp.Swashbuckle;
 using Volo.Abp.UI.Navigation.Urls;
 using Volo.Abp.VirtualFileSystem;
+using Volo.Abp.OpenIddict;
 
 namespace AbpGoesAzure;
 
@@ -54,6 +55,23 @@ public class AbpGoesAzureHttpApiHostModule : AbpModule
                 options.AddAudiences("AbpGoesAzure");
                 options.UseLocalServer();
                 options.UseAspNetCore();
+
+
+                var hostingEnvironment = context.Services.GetHostingEnvironment();
+                var configuration = context.Services.GetConfiguration();
+
+                if (hostingEnvironment.IsDevelopment()) return;
+
+
+                PreConfigure<AbpOpenIddictAspNetCoreOptions>(options =>
+                {
+                    options.AddDevelopmentEncryptionAndSigningCertificate = false;
+                });
+
+                PreConfigure<OpenIddictServerBuilder>(serverBuilder =>
+                {
+                    serverBuilder.AddProductionEncryptionAndSigningCertificate("openiddict.pfx", configuration["OpenIddictCertificate:X590:Password"]);
+                });
             });
         });
     }
