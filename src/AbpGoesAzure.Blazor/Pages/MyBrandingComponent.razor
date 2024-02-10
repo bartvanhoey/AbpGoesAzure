@@ -1,0 +1,12 @@
+@using Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.Themes.LeptonXLite;
+@using Volo.Abp.DependencyInjection
+
+@inherits Branding
+@attribute [ExposeServices(typeof(Branding))]
+@attribute [Dependency(ReplaceServices = true)]
+
+@Name
+
+@code {
+    string Name = "AbpGoesAzure";
+}
