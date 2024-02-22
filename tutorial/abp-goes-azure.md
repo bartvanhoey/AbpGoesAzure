@@ -30,7 +30,7 @@ The following tools are needed to be able to run the solution.
 
 [2. Create a new ABP Framework application](tutorial/../2.create-a-new-abp-framework-application.md)
 
-[3. Create an SQL Database in Azure](tutorial/../3.create-an-sql-database-in-azure.md)
+[3. Create an SQL Database in Azure](tutorial/../3.create-a-sql-database-in-azure.md)
 
 [4. Set up the Build pipeline in AzureDevops](tutorial/../4.set-up-a-build-pipeline-in-azuredevops.md)
 
