@@ -2,6 +2,7 @@
     "cSpell.words": [
         "appsettings",
         "artifactstagingdirectory",
+        "azureserver",
         "azurewebsites",
         "Blazor",
         "Entra",
@@ -11,6 +12,7 @@
         "Pathto",
         "serveradmin",
         "Volo",
+        "wwwroot",
         "yourappname"
     ]
 }
