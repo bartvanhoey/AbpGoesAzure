@@ -19,7 +19,7 @@ ATTENTION: **This tutorial is by no means production-ready** and just serves as 
 
 The following tools are needed to be able to run the solution.
 
-* .NET 8.0 SDK
+* .NET 9.0 SDK
 * VsCode, Visual Studio 2022 or another compatible IDE
 * ABP CLI version 8.0.0
 

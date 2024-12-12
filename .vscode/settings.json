@@ -1,7 +1,16 @@
 {
     "cSpell.words": [
+        "appsettings",
+        "artifactstagingdirectory",
         "azurewebsites",
+        "Blazor",
+        "Entra",
+        "ests",
+        "msbuild",
         "openiddict",
-        "serveradmin"
+        "Pathto",
+        "serveradmin",
+        "Volo",
+        "yourappname"
     ]
 }
